@@ -26,6 +26,7 @@ class SupabaseShimPoc < Formula
 
   def install
     bin.install "supabase" => "supabase-shim-poc"
+    bin.install "supabase-go" if File.exist?("supabase-go")
   end
 
   test do
