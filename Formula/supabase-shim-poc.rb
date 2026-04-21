@@ -1,26 +1,26 @@
 class SupabaseShimPoc < Formula
   desc "Supabase CLI"
   homepage "https://supabase.com"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/avallete/supabase-cli-release-poc/releases/download/v0.0.3/supabase_0.0.3_darwin_arm64.tar.gz"
-      sha256 "b687c14585969b1f337a7fd6aa18f2b711b91615f4b230fabe051cb7398377f5"
+      url "https://github.com/avallete/supabase-cli-release-poc/releases/download/v0.0.4/supabase_0.0.4_darwin_arm64.tar.gz"
+      sha256 "ba4847fca8f89abf734bd1dc0d548172c398448a3ee0785a51c1d98645a2e9f8"
     else
-      url "https://github.com/avallete/supabase-cli-release-poc/releases/download/v0.0.3/supabase_0.0.3_darwin_amd64.tar.gz"
-      sha256 "0efbb8d900d7c0569340e43359abe60f485fd236095784fd4864bf49161835f5"
+      url "https://github.com/avallete/supabase-cli-release-poc/releases/download/v0.0.4/supabase_0.0.4_darwin_amd64.tar.gz"
+      sha256 "e74e22d3e49a6b69937b7acee337522037bea4069a1dc1abd2a636c67e809425"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/avallete/supabase-cli-release-poc/releases/download/v0.0.3/supabase_0.0.3_linux_arm64.tar.gz"
-      sha256 "f34e0c598f3701144441ed2adc528138d66e619703694928f2515d3202290a99"
+      url "https://github.com/avallete/supabase-cli-release-poc/releases/download/v0.0.4/supabase_0.0.4_linux_arm64.tar.gz"
+      sha256 "32ced3d9dad13dcfff139378c293343e5f4b12d863cb471a61411e0cf3437db9"
     else
-      url "https://github.com/avallete/supabase-cli-release-poc/releases/download/v0.0.3/supabase_0.0.3_linux_amd64.tar.gz"
-      sha256 "b9346d3b43051dbd9e45dbdcd63b31279a4a71f0b13d0e337e4bbeaef2056def"
+      url "https://github.com/avallete/supabase-cli-release-poc/releases/download/v0.0.4/supabase_0.0.4_linux_amd64.tar.gz"
+      sha256 "44204261bd6e7aa0a0e6c7b5cb2111113582f2c249cb7443f2c11c13cce7ce60"
     end
   end
 
